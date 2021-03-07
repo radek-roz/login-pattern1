@@ -1,0 +1,13 @@
+.logo {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 100px auto;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: lighter;
+  color: lightslategrey;
+  padding: 10px;
+  border: 2px solid lightslategray;
+  border-radius: 200px;
+  width: 80px;
+  height: 80px;
+}

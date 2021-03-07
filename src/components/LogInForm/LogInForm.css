@@ -1,0 +1,18 @@
+.log-in-form {
+  text-align: center;
+}
+
+.log-in-input {
+  font-size: 3vh;
+  border-width: 0 0 2px;
+  outline: 0;
+  border-color: lightslategray;
+  display: block;
+  margin: 50px auto;
+}
+
+.log-in-input:focus {
+  border-width: 0 0 2px;
+  outline: 0;
+  border-color: blue;
+}

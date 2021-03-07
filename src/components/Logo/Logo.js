@@ -2,7 +2,7 @@ import './Logo.css';
 
 const Logo = () => {
     return ( 
-        <h1>Logo</h1>
+        <h1 className="logo"><div style={{marginTop: "20px"}}>Logo</div></h1>
      );
 }
  

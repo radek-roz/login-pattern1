@@ -7,9 +7,9 @@ const LogInForm = (handleChangePage) => {
     return ( 
         <React.Fragment>
             <Logo/>
-        <form>
-        <input placeholder = "User Name" className="user-name-input"></input>
-        <input placeholder = "Password" className="password-input"></input>
+        <form className="log-in-form">
+        <input type="text" placeholder = "User Name" className="user-name-input log-in-input"></input>
+        <input type="password" placeholder = "Password" className="password-input log-in-input"></input>
         <input type="submit" value="Log in"></input>
         </form>
         <Link to="/register" onClick={handleChangePage}>Dołącz do nas!</Link>
